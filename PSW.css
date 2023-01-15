@@ -1,0 +1,176 @@
+*{
+    background-color: rgb(211, 248, 248);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.NavOp {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(39, 39, 177);
+}
+.navbarlink{
+    display: inline;
+}
+.navbarlink a  {
+    display: block;
+    width: 60px;
+    background-color: rgb(39, 39, 177);
+    display: inline;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+  }
+
+
+.part1 {
+    width: 100%;
+}
+
+.Bannerface {
+    width: 24%;
+    height: 300px;
+}
+.profilelk {
+    height: 320;
+    width: 250px;
+}
+.Bannerface , .Abtme {
+    display: inline-block;
+}
+
+        .Abtme {
+            width: 73%;
+            margin-right:  auto;
+        }
+        .Abtme fieldset {
+            border-style: dashed;
+            border-color: blue;
+        }
+@media (max-width: 800px){
+    .Bannerface , .Abtme {
+        margin: 0 auto;
+        display: contents;
+
+    }
+}
+
+.resume {
+    width: 90%;
+    margin: 0 auto;
+}
+.listrw {
+    display: flex;
+    flex-wrap: wrap;
+    width:90% ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.listnum {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+@media (max-width: 800px) {
+    .listnum{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+}
+@media (max-width: 600px) {
+    .listnum {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+.Exps {
+    display: flex;
+    flex-wrap: wrap;
+    width:90% ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.EXPnum {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+@media (max-width: 800px) {
+    .EXPnum{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+}
+@media (max-width: 600px) {
+    .EXPnum{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    width:90% ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.portimg {
+    height: 200px;
+    width: 200px;
+}
+.portnum {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+@media (max-width: 800px) {
+    .portnum{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+}
+@media (max-width: 600px) {
+    .portnum{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .portimg {
+        height: 350px;
+        width: 350px;
+    }
+}
+        
+.sociallk{
+    display: flex;
+    flex-wrap: wrap;
+    width:90% ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.soclik {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+@media (max-width: 800px) {
+    .soclik{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+}
+@media (max-width: 600px) {
+    .soclik{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
